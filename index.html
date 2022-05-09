@@ -19,14 +19,12 @@
       img {
         border: 0;
       }
-
       .wrapper {
         width: 100%;
         table-layout: fixed;
         background-color: #e5dec7;
         padding-bottom: 60px;
       }
-
       .main {
         width: 100%;
         max-width: 600px;
@@ -68,27 +66,35 @@
         font-weight: bold;
         border-radius: 5px;
       }
-
       .three-columns {
         font-size: 0;
         padding: 35px 0 20px;
       }
-
       .three-columns .column {
         width: 100%;
         max-width: 200px;
         display: inline-block;
         vertical-align: top;
       }
-
       .three-columns .padding {
         padding: 25px;
       }
-
       .three-columns .content {
         font-size: 15px;
         line-height: 20px;
       }
+			.two-columns.last {
+				padding: 35px 0;
+      }
+			.two-columns .padding{
+				padding: 20px;
+			}
+			.two-columns .content {
+				text-align: left;
+				font-size: 15px;
+				line-height: 20px;
+			}
+
     </style>
   </head>
   <body>
@@ -282,6 +288,44 @@
           <td height="2px" style="background-color: black"></td>
         </tr>
         <!-- TWO COLUMN SECTION -->
+				<tr>
+					<td>
+						<table width="100%">
+							<tr>
+								<td class="two-columns last">
+								  <table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href=""><img src="img/palette.png" alt="" width="260"></a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<h4>Create Custom Designs</h4>
+															<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellendus voluptatibus fugiat eaque libero aut a error debitis facere, veniam cupiditate!</p> <p style="padding-bottom: 15px;">Exercitationem fuga recusandae animi unde dolores, facere est error.</p>
+															<a href="" class="button"">HTML Email Course</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
 
         <!-- FOOTER SECTION -->
       </table>
